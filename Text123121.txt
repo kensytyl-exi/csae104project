@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en>
+    <head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport"content="width=device-width,initial scale-=1"/>
+	<title> Campus Notices</title>
+
+	<nav><link rel="stylesheet" href="styles.css"/></nav>
+    </head>
+
+    <body>
+	<div class="bg1"><header class="card" style="text-align: center"><strong>DON MARIANO MARCOS MEMORIAL STATE UNIVERSITY - SOUTH LA UNION CAMPUS</strong></header> </div> </body>
+	
+	<main>
+
+	<p style="text-align: center">
+	<strong>CAMPUS NOTICE</strong>
+	</p>
+
+
+	<img src="images.jpg" class="center-img">
+
+	<nav style="text-align: center"><a href ="notice.html" >Read Notice</a></nav>
+	
+	<ul>
+		<li>Ma'am Haydee</li>
+		<li>Ma'am Jheck</li>
+		<li>Ma'am Ara</li>
+		<li>Sir Abad</li>
+	</ul>
+	<ol>
+		<li>Ma'am Haydee</li>
+		<li>Ma'am Jheck</li>
+		<li>Ma'am Ara</li>
+		<li>Sir Abad</li>
+	</ol>
+	
+	<form action="/api/notices" method="post">
+		<label for="title">Title</label>
+		<input id="title" name="title"
+				type="text" required/>
+		
+			<br><br>
+		<label for="msg">Message</label>
+		<textarea id="msg" name="message"></textarea>
+
+		<button class="btn btn-primary" type="submit">Post notice</button>
+	</form>
+
+
+	</main>
+	</body>
+
+</html>
